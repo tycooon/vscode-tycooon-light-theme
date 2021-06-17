@@ -1,0 +1,21 @@
+{
+    "name": "tycooon-light-theme",
+    "displayName": "TycoooN Light Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "TycoooN Light Theme",
+                "uiTheme": "vs",
+                "path": "./themes/TycoooN Light Theme-color-theme.json"
+            }
+        ]
+    }
+}

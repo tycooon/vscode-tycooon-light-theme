@@ -1,0 +1,63 @@
+{
+	"name": "TycoooN Light Theme",
+	"type": "light",
+	"include": "./light_plus.json",
+	"tokenColors": [
+		{
+			"name": "Entity",
+			"scope": "entity",
+			"settings": {
+				"foreground": "#800000",
+			}
+		},
+		{
+			"name": "Type",
+			"scope": "entity.name.type",
+			"settings": {
+				"fontStyle": "underline",
+			}
+		},
+		{
+			"name": "Reset some Ruby specific stuff",
+			"scope": [
+				// In Ruby, functions and local variables often look the same
+				"meta.function-call.ruby entity", // function calls like `a.func()`
+				"variable.other.ruby", // variables like `a = 15`
+
+				"support.function.core.ruby", // core fuctions like `current` or `result`
+				"support.function.kernel.ruby", // kernel functions like `p`
+				// "keyword.other.special-method.ruby", // stuff like `A.new`
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			// "name": "Variable",
+			"scope": "meta.function.method",
+			"settings": {
+				"foreground": "#267f99"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable, constant, constant.numeric",
+			"settings": {
+				"foreground": "#267f99"
+			}
+		},
+		{
+			"name": "Ruby class",
+			"scope": "support.class.ruby",
+			"settings": {
+				"foreground": "#267f99"
+			}
+		},
+		{
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#0000ff"
+			}
+		},
+	]
+}
