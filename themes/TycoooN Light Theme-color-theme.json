@@ -21,7 +21,7 @@
 			"name": "Reset some Ruby specific stuff",
 			"scope": [
 				// In Ruby, functions and local variables often look the same
-				"meta.function-call.ruby entity", // function calls like `a.func()`
+				"entity.name.function.ruby", // function calls like `a.func()`
 				"variable.other.ruby", // variables like `a = 15`
 
 				"support.function.core.ruby", // core fuctions like `current` or `result`
